@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+html {
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+}
+
+body {
+    color: #ffffff;
+    font-family: 'Open Sans';   
+    font-weight: 400;
+    background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%) no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 35px;
+}
+
+.header .logo {
+    width: 200px;
+    padding: 105px 0 50px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 80px;
+}
+
+.main .mockups {
+    max-width: 700px;
+}
+
+.main h1 {
+    font-family: 'Poppins';
+    font-size: 40px;
+    max-width: 500px;
+    line-height: 60px;
+    margin: 0 0 25px;
+}
+
+.main p {
+    font-size: 20px;
+    max-width: 570px;
+    line-height: 30px;
+    margin: 0 0 35px;
+}
+
+.main .btn {
+    font-size: 20px;
+    color: hsl(257, 40%, 49%) ;
+    background-color: #ffffff;
+    padding: 15px 55px;
+    border-radius: 50px;
+}
+
+.main .btn:hover {
+    color: #ffffff;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.footer {
+    display: flex;
+    align-self: flex-end;
+    padding: 80px 0 0;
+}
+
+.footer .socials {
+    display: flex;
+    align-items: center;
+}
+
+.footer .socials i {
+    justify-content: center;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 10px; 
+    width: 45px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer .socials a:hover {
+    color: #ff23c4;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 0 20px;
+}
+
+.attribution a:hover {
+    color: #ff23c4;
+}
+

@@ -1,0 +1,29 @@
+
+
+
+
+@media (max-width: 425px) {
+    .header .logo {
+        width: 150px;
+        padding: 35px 0 60px;
+    }
+
+    .main h1 {
+        padding: 55px 0 0;
+        text-align: center;
+        font-size: 27px;
+        line-height: normal;
+    }
+
+    .main p {
+        text-align: center;
+        font-size: 17.5px;
+        line-height: normal;
+        padding: 0 0 20px;
+    }
+
+    .main .btn {
+        font-size: 15px;
+        padding: 12px 80px;
+    }
+}
