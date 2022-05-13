@@ -52,7 +52,7 @@ body {
     margin: 0 0 35px;
 }
 
-.main .btn {
+.main .information .btn {
     font-size: 20px;
     color: hsl(257, 40%, 49%) ;
     background-color: #ffffff;
@@ -67,8 +67,13 @@ body {
 
 .footer {
     display: flex;
+    flex-direction: column;
+}
+
+.footer .socials {
+    display: flex;
     align-self: flex-end;
-    padding: 80px 0 20px;
+    padding: 55px 0 25px;
 }
 
 .footer .socials i {
@@ -90,7 +95,7 @@ body {
 .attribution {
     text-align: center;
     font-size: 11px;
-    padding: 15px 0 20px;
+    padding: 10px 0 15px;
 }
 
 .attribution a:hover {
